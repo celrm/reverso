@@ -5,7 +5,6 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 
-
 main =
     Browser.document
         { init = init
@@ -37,7 +36,7 @@ subscriptions model =
 
 view : Model -> Browser.Document Msg
 view model =
-  (Browser.Document "Hola Meana"
+  (Browser.Document "Bú"
     [ div []
     [ input [onInput Introducir] []
     , br [] []

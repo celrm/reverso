@@ -12,7 +12,7 @@ main =
         , subscriptions = subscriptions
         , view = view
         }
-
+ 
 type alias Model =
   { frase : String
   }
